@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages", "RazorPages\RazorPages.csproj", "{39FE742B-2BD6-464D-B4AC-FD452EC36CCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{7E64BC24-FE96-481E-9AC0-D3538E85CE1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{39FE742B-2BD6-464D-B4AC-FD452EC36CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39FE742B-2BD6-464D-B4AC-FD452EC36CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39FE742B-2BD6-464D-B4AC-FD452EC36CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E64BC24-FE96-481E-9AC0-D3538E85CE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E64BC24-FE96-481E-9AC0-D3538E85CE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E64BC24-FE96-481E-9AC0-D3538E85CE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E64BC24-FE96-481E-9AC0-D3538E85CE1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
