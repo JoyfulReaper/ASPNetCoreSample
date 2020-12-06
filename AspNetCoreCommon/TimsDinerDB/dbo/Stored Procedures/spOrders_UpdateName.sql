@@ -8,6 +8,6 @@ begin
 
 	update dbo.[Order]
 	set OrderName = @OrderName
-	where Id = @id;
+	where Id = @Id;
 
 end
