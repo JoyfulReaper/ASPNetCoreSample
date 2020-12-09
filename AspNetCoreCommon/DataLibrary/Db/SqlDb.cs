@@ -25,7 +25,8 @@ namespace DataLibrary.Db
 
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
-                var rows = await connection.QueryAsync<T>(storedProcedure, parameters,
+                var rows = await connection.QueryAsync<T>(storedProcedure,
+                                                          parameters,
                                                           commandType: CommandType.StoredProcedure);
 
                 return rows.ToList();
