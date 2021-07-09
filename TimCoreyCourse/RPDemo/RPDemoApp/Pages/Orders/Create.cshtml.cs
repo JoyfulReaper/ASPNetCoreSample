@@ -52,7 +52,7 @@ namespace RPDemoApp.Pages.Orders
             Order.Total = Order.Quantity * food.Where(x => x.Id == Order.FoodId).First().Price;
             int id = await _orderData.CreateOrder(Order);
 
-            return RedirectToPage("./Create");
+            return RedirectToPage("./Display", new { Id = id });
         }
     }
 }
